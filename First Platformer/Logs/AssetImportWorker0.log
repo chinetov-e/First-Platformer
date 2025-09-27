@@ -605,3 +605,11 @@ Memory consumption went from 157.0 MB to 153.6 MB.
 Total: 4.292417 ms (FindLiveObjects: 0.284208 ms CreateObjectMapping: 0.119875 ms MarkObjects: 3.009125 ms  DeleteObjects: 0.878958 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 776.623241 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d1bfbb2a1fdc62874891df2f6ce5c57') in 0.012368709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
