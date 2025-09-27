@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Rock
   layers:
   - Default
   - TransparentFX
@@ -50,14 +51,14 @@ TagManager:
   - name: Rock
     uniqueID: 1918058619
     locked: 0
-  - name: Ground
-    uniqueID: 3410021391
-    locked: 0
   - name: Environment
     uniqueID: 192499253
     locked: 0
   - name: Player
     uniqueID: 3293449181
+    locked: 0
+  - name: Ground
+    uniqueID: 3410021391
     locked: 0
   m_RenderingLayers:
   - Default
