@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Attack Settings")]
     [SerializeField] private float attackDamage = 10;
-    [SerializeField] private float attackRange = 1f;
+    [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayer;
 
@@ -65,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
     public void Attack()
     {
         animator.SetTrigger("Attack");
+        OnDrawGizmos();
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
@@ -75,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OawGizmos()
+    private void OnDrawGizmos()
     {
         if (attackPoint == null) return;
         Gizmos.color = Color.red;
